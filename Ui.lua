@@ -1,6 +1,7 @@
 --[[ Pepsi's UI Library
 Better and updated web-based docs are planned in distant future.
 Library v0.36 [
+CoreGui:FindFirstChild():Destroy()
     CreateWindow: Function (
         (table | nil) Options [
             (string | nil) Name = "Window Name"
