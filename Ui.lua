@@ -478,12 +478,12 @@ local library = {
 	},
 	colors = {
 		main = Color3.fromRGB(51, 153, 255),
-		background = Color3.fromRGB(40, 40, 40),
+		background = Color3.fromRGB(0, 0, 0),
 		outerBorder = Color3.fromRGB(0, 0, 0),
 		innerBorder = Color3.fromRGB(60, 100 ,138),
-		topGradient = Color3.fromRGB(35, 35, 35),
-		bottomGradient = Color3.fromRGB(29, 29, 29),
-		sectionBackground = Color3.fromRGB(35, 34, 34),
+		topGradient = Color3.fromRGB(0, 0, 0),
+		bottomGradient = Color3.fromRGB(0, 0, 0),
+		sectionBackground = Color3.fromRGB(0, 0, 0),
 		section = Color3.fromRGB(176, 175, 176),
 		otherElementText = Color3.fromRGB(129, 127, 129),
 		elementText = Color3.fromRGB(176, 175, 176),
@@ -7473,7 +7473,7 @@ function library:CreateWindow(options, ...)
 		end
 		if options.Credit ~= false then
 			daaata[1 + #daaata] = {"AddLabel", "__Designer.Label.Creator", detailssection, {
-				Text = "Script By Inglis yukusu#5307"
+				Text = "Library by Pepsi#5229 "
 			}}
 		elseif "Gee, thanks for your support." then
 		end
